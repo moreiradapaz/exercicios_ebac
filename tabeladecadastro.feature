@@ -11,9 +11,9 @@ Funcionalidade: Cadastro de Cliente EBAC
     Então o sistema deve cadastrar o cliente com sucesso
 
   Esquema do Cenário: Cadastro com e-mail inválido
-    Quando o cliente preenche o campo de <e-mail> com um formato inválido
+    Quando o cliente preenche o campo de  <e-mail>  com um formato inválido
     E clica no botão "Cadastrar"
-    Então o sistema deve exibir uma <mensagem> "Formato de e-mail inválido"
+    Então o sistema deve exibir uma  <mensagem>  "Formato de e-mail inválido"
 
     Exemplos:
       | email            | mensagem                    |
